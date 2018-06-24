@@ -1,0 +1,32 @@
+{
+  "version": "0.0.0",
+  "name": "react-chrome-extension-example",
+  "manifest_version": 2,
+  "description": "Example for react-chrome-extension-boilerplate",
+
+  "short_name": "Style Handle",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff", 
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "icons": {
+    "16": "images/ic-16.png",
+    "48": "images/ic-48.png",
+    "128": "images/ic-128.png"
+  },
+  "permissions": [
+  ]
+}
